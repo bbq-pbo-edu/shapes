@@ -25,4 +25,9 @@ class Triangle extends Shape
     {
         return 0.5 * $this->base * $this->height;
     }
+
+    public function getPerimeter(): float
+    {
+        return $this->base + $this->height + sqrt(($this->base**2 + $this->height**2));
+    }
 }

@@ -47,10 +47,12 @@ echo "\$triangle1\tClass: " . get_class($triangle1)
     . "\t\$base: " . $triangle1->getBase()
     . "\t\$height: " . $triangle1->getHeight()
     . "\tArea: " . $triangle1->getArea()
+    . "\tPerimeter: " . $triangle1->getPerimeter()
     . "\n";
 
 echo "\$triangle2\tClass: " . get_class($triangle2)
     . "\t\$base: " . $triangle2->getBase()
     . "\t\$height: " . $triangle2->getHeight()
     . "\tArea: " . $triangle2->getArea()
+    . "\tPerimeter: " . $triangle2->getPerimeter()
     . "\n";
